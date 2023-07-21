@@ -43,8 +43,33 @@ body {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	background: #555;
-	color: #f1f1f1;
+	background: #011627;
+	color: #011627;
 	text-align: center;
-	padding: 1.5rem 0.2rem;
+	padding: 1.1rem 0.1rem;
 }
+
+.footer p {
+      margin-bottom: 10px;
+      color:white;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer .social-icons a {
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      background-color: #0088cc;
+      color: #fff;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      margin: 0 4px;
+      border-radius: 50%;
+    }
+
+    .footer .social-icons a:hover {
+      background-color: #011627; /* Changed background color on hover */
+    }
