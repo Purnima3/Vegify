@@ -1,21 +1,50 @@
-body {
-  margin: 0;
-  padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PP mori";
 }
 
-.header {
-  padding: 0.2rem 0.2rem;
-  background: #555;
-  color: #f1f1f1;
-  text-align: center;
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.header_part1 {
+	display: flex;
+}
+
+.header_part1_left {
+	width: 100%;
+	border: 2px solid red;
+}
+.header_part1_left > h2 {
+	height: 60%;
+	/* border: 2px solid red; */
+	background-color: rgb(235, 213, 185);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_part1_upperLeft {
+	padding-right: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 14px;
+	height: 40%;
+	background-color: rgb(174, 174, 242);
 }
 
 .footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background: #555;
-  color: #f1f1f1;
-  text-align: center;
-  padding: 1.5rem 0.2rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #555;
+	color: #f1f1f1;
+	text-align: center;
+	padding: 1.5rem 0.2rem;
 }
