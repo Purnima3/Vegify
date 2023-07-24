@@ -130,41 +130,25 @@ body {
 	font-weight: 300;
 }
 
-.page2-container {
+.page2 h2 {
+	font-size: 2vw;
 	font-family: PP mori;
-	height: 60vh;
-	width: 100%;
+	font-weight: 300;
+}
+.page2 .wrapper {
+	width: 90%;
+	height: 30%;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-	padding: 0 3vw;
-	margin-top: 11vw;
+	align-items: center;
+	border: 2px solid red;
+	flex-wrap: wrap;
+	overflow: hidden;
 }
-
-.page2-left {
-	/* border: 2px solid red; */
-	width: 50%;
-}
-
-.page2-left h2 {
-	font-family: PP mori;
-	font-size: 4.5vw;
-	font-weight: 300;
-}
-.page2-right {
-	/* border: 2px solid red; */
-	width: 25%;
-}
-.page2-right p {
-	font-size: 1.4vw;
-	font-family: PP mori;
-	font-weight: 300;
-}
-.page2-right button {
-	width: 100%;
-	border-radius: 50px;
-	border: none;
-	padding: 6px 0;
-	margin: 2.2vw 0;
-	background-color: #edbfff;
+.page2 .wrapper .box {
+	background-color: #636262;
+	border-radius: 10px;
+	width: 20%;
+	height: 100%;
+	border: 2px solid red;
 }
