@@ -2,34 +2,72 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Hello, world!</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta name="description" content="" />
-		<link rel="icon" href="favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- Locomotive CSS CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+		/>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
-
 	<body>
+		<div class="cursor"></div>
 		<div class="main">
-			<div class="header_part1" id="myHeader">
-				<img src="./logo.png" alt="Logo_Vegify" width="150px" height="120px" />
-				<div class="header_part1_left">
-					<div class="header_part1_upperLeft">
-						<h2>Sign In</h2>
-						<h2>My Cart</h2>
-						<input type="text" name="query" placeholder="Search..." />
-						<button type="submit">Go</button>
+			<div class="page1">
+				<div id="nav">
+					<img src="./logo.png" />
+					<div id="nav-part2">
+						<h4>Home</h4>
+						<h4>Fruits</h4>
+						<h4>Vegetables</h4>
+						<h4>Products</h4>
 					</div>
-					<h2>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
-						exercitationem?
-					</h2>
+					<div id="nav-part3">
+						<div id="circle"></div>
+					</div>
+				</div>
+				<h1>Fresh, Green</h1>
+				<h2>Vegies Delivered!</h2>
+				<video src="videohomepage.mp4" autoplay muted loop></video>
+				<p id="vid"></p>
+			</div>
+
+			<div class="page2">
+				<h1>Our Products</h1>
+				<div class="page2-container">
+					<div class="page2-left">
+						<h2>A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRAND’S POTENTIAL</h2>
+					</div>
+					<div class="page2-right">
+						<p>
+							We weave together bold strategy and creative execution to produce
+							thought-provoking digital experiences. We take a highly
+							personalized approach to delivering branding, web design, and
+							content marketing solutions. Born in the DC area - now serving
+							clients worldwide.
+						</p>
+						<button>About Us</button>
+					</div>
 				</div>
 			</div>
-			<div class="header_part2"></div>
-			<h1>Hello, world!</h1>
 
-			<div class="footer">Footer</div>
-		</div>
+
+		<!-- Locomotive CDN JS -->
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+		<!-- GSAP CDN -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+			integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+			integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="script.js"></script>
 	</body>
 </html>
